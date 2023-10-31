@@ -1,0 +1,14 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1184px;
+  height: 740px;
+  background-image: url("../images/__background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  text-decoration: none;
+}

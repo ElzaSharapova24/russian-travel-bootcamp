@@ -1,0 +1,7 @@
+.place {
+  display: flex;
+  gap: 40px;
+}
+.place:not(:last-child) {
+  margin-bottom: 80px;
+}

@@ -1,0 +1,342 @@
+/*@font-face {*/
+/*  font-family: "Inter";*/
+/*  src: url("../fonts/Inter-Regular.woff") format("woff"),*/
+/*  url("../fonts/Inter-Regular.woff2") format("woff2");*/
+/*  font-weight: 400;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: "Inter";*/
+/*  src: url("../fonts/Inter-Bold.woff") format("woff"),*/
+/*  url("../fonts/Inter-Bold.woff2") format("woff2");*/
+/*  font-weight: 700;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: "Inter";*/
+/*  src: url("../fonts/Inter-Black.woff") format("woff"),*/
+/*  url("../fonts/Inter-Black.woff2") format("woff2");*/
+/*  font-weight: 900;*/
+/*}*/
+
+/*.page {*/
+/*  min-width: 320px;*/
+/*  max-width: 1280px;*/
+/*  margin: 0 auto;*/
+/*  font-family: "Inter", Arial, sans-serif;*/
+/*  background-color: #2A2C2F;*/
+/*  padding: 0 48px;*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+/*!*header*!*/
+
+/*.header {*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+/*}*/
+
+
+/*.header__lang {*/
+/*  display: flex;*/
+/*  gap: 18px;*/
+/*}*/
+
+/*.header__lang-link {*/
+/*  cursor: pointer;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 24px;*/
+/*  line-height: 28px;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*  text-decoration: none;*/
+/*}*/
+
+
+
+/*!*lead*!*/
+
+/*.lead {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  padding-top: 56px;*/
+/*  position: relative;*/
+/*}*/
+
+/*.lead__title {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  max-width: 720px;*/
+/*  font-size: 96px;*/
+/*  line-height: 100px;*/
+/*  color: #fff;*/
+/*  font-weight: 900;*/
+/*  text-align: center;*/
+/*  margin-bottom: 25px;*/
+/*}*/
+
+/*.lead__subtitle {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  max-width: 640px;*/
+/*  font-size: 30px;*/
+/*  line-height: 38px;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*  text-align: center;*/
+/*  margin-bottom: 64px;*/
+/*}*/
+
+/*.lead__image {*/
+/*  max-width: 100%;*/
+/*  object-fit: cover;*/
+/*  margin-bottom: 8px;*/
+/*}*/
+
+/*.lead__caption {*/
+/*  position: absolute;*/
+/*  left: 100px;*/
+/*  bottom: -15px;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 10px;*/
+/*  line-height: 14px;*/
+/*  letter-spacing: 1.5px;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*!*intro*!*/
+
+/*.intro {*/
+/*  padding-top: 107px;*/
+/*  padding-left: 100px;*/
+/*  padding-right: 100px;*/
+/*}*/
+
+/*.intro__title {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 54px;*/
+/*  line-height: 58px;*/
+/*  color: #fff;*/
+/*  font-weight: 900;*/
+/*  margin-bottom: 40px;*/
+/*}*/
+
+/*.intro__text {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  max-width: 690px;*/
+/*  font-size: 16px;*/
+/*  line-height: 163%;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*  margin-bottom: 33px;*/
+/*}*/
+
+/*.intro__list {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  list-style: none;*/
+/*}*/
+
+/*.intro__item {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  gap: 5px;*/
+/*}*/
+
+/*.intro__list-heading {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 12px;*/
+/*  line-height: 18px;*/
+/*  color: #fff;*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*.intro__list-desc {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 12px;*/
+/*  line-height: 18px;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*!*photo-grid*!*/
+
+/*.photo-grid {*/
+/*  padding-top: 92px;*/
+/*  display: grid;*/
+/*  grid-template-columns: repeat(4, 1fr);*/
+/*  gap: 16px;*/
+/*}*/
+
+/*.photo-grid__item {*/
+/*  max-width: 100%;*/
+/*  object-fit: cover;*/
+/*}*/
+
+/*!*places*!*/
+
+/*.places {*/
+/*  padding-top: 92px;*/
+/*  padding-left: 100px;*/
+/*  padding-right: 100px;*/
+/*}*/
+
+/*.place {*/
+/*  display: flex;*/
+/*  gap: 40px;*/
+/*}*/
+
+/*.place:not(:last-child) {*/
+/*  margin-bottom: 80px;*/
+/*}*/
+
+/*.place__list {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  list-style: none;*/
+/*}*/
+
+
+/*.place__bottom {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*}*/
+
+/*.place__title {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  max-width: 440px;*/
+/*  font-size: 72px;*/
+/*  line-height: 78px;*/
+/*  color: #fff;*/
+/*  font-weight: bold;*/
+/*  letter-spacing: 2.5px;*/
+/*  margin-bottom: 42px;*/
+/*}*/
+
+/*.place__website {*/
+/*  margin-bottom: 48px;*/
+/*}*/
+
+/*.place__url-heading {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 12px;*/
+/*  line-height: 12px;*/
+/*  letter-spacing: 2px;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*  margin-bottom: 12px;*/
+/*}*/
+
+/*.place__link {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 18px;*/
+/*  line-height: 22px;*/
+/*  color: #fff;*/
+/*  cursor: pointer;*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*.place__paragraph {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 18px;*/
+/*  line-height: 163%;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*.place__paragraph:not(:last-child) {*/
+/*  margin-bottom: 26px;*/
+/*}*/
+
+/*!*cover*!*/
+
+/*.cover {*/
+/*  padding-top: 92px;*/
+/*}*/
+
+/*.cover__link {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  width: 1184px;*/
+/*  height: 740px;*/
+/*  background-image: url("../images/__background.png");*/
+/*  background-position: center;*/
+/*  background-size: cover;*/
+/*  background-repeat: no-repeat;*/
+/*  cursor: pointer;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/*.cover__title {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 72px;*/
+/*  line-height: 76px;*/
+/*  color: #fff;*/
+/*  font-weight: bold;*/
+/*  margin-bottom: 32px;*/
+/*}*/
+
+/*.cover__subtitle {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 18px;*/
+/*  line-height: 22px;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*}*/
+
+
+/*!*footer*!*/
+
+/*.footer {*/
+/*  padding-top: 87px;*/
+/*  padding-bottom: 24px;*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*}*/
+
+/*.footer__list {*/
+/*  display: flex;*/
+/*  gap: 18px;*/
+/*  align-items: center;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  list-style: none;*/
+/*}*/
+
+/*.footer__link {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 16px;*/
+/*  line-height: 18px;*/
+/*  color: #fff;*/
+/*  font-weight: normal;*/
+/*  text-decoration: none;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.footer__copyright {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  font-size: 14px;*/
+/*  line-height: 16px;*/
+/*  color: #fff;*/
+/*}*/
