@@ -1,3 +1,27 @@
 .cover {
-  padding-top: 92px;
+  padding: 0 3.75%;
+  padding-top: 127px;
 }
+
+@media  (max-width: 1024px) {
+  .cover {
+    padding-top: 125px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 920px) {
+  .cover {
+    padding-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media  (max-width: 720px) {
+  .cover {
+    padding-top: 107px;
+  }
+}
+

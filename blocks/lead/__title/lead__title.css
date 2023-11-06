@@ -3,9 +3,35 @@
   padding: 0;
   max-width: 720px;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.04;
   color: #fff;
   font-weight: 900;
   text-align: center;
   margin-bottom: 25px;
 }
+
+@media  (max-width: 1024px) {
+  .lead__title {
+    margin-bottom: 33px;
+  }
+}
+
+@media  (max-width: 920px) {
+  .lead__title {
+    font-size: 96px;
+    margin-bottom: 34px;
+    letter-spacing: -0.5px;
+  }
+}
+
+@media  (max-width: 720px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    /*font-size: clamp(40px, 5vh, 95px);*/
+  }
+}
+
+
