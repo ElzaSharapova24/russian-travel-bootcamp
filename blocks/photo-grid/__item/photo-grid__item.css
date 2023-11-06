@@ -3,17 +3,3 @@
   object-fit: cover;
 }
 
-@media  (max-width: 920px) {
-  .photo-grid__item {
-    width: 352px;
-    height: 264px;
-  }
-}
-
-
-@media  (max-width: 720px) {
-  .photo-grid__item {
-    width: 288px;
-    height: 216px;
-  }
-}
