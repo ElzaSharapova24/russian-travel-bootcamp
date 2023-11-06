@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3.75%;
+  padding-top: 27px;
+}
+
+
+@media  (max-width: 1024px) {
+  .header {
+    padding: 0 4.75%;
+    padding-top: 27px;
+  }
+}
+
+@media  (max-width: 720px) {
+  .header {
+    padding-top: 16px;
+  }
+}

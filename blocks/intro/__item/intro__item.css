@@ -1,0 +1,11 @@
+.intro__item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media  (max-width: 720px) {
+  .intro__item {
+    gap: 1px;
+  }
+}

@@ -1,0 +1,29 @@
+.intro__text {
+  margin: 0;
+  padding: 0;
+  max-width: 690px;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 33px;
+}
+
+@media  (max-width: 1024px) {
+  .intro__text {
+    margin-bottom: 33px;
+  }
+}
+
+@media  (max-width: 920px) {
+  .intro__text {
+    margin-bottom: 35px;
+    max-width: 720px;
+  }
+}
+
+@media  (max-width: 720px) {
+  .intro__text {
+    margin-bottom: 34px;
+  }
+}
