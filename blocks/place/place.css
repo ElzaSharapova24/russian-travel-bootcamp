@@ -3,7 +3,6 @@
   grid-template-columns: clamp(460px, 45vw, 460px) 1fr;
   column-gap: 40px;
   row-gap: 48px;
-  overflow: hidden;
 }
 
 .place:not(:last-child) {

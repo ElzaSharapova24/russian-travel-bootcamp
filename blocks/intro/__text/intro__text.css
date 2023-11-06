@@ -9,11 +9,6 @@
   margin-bottom: 33px;
 }
 
-@media  (max-width: 1024px) {
-  .intro__text {
-    margin-bottom: 33px;
-  }
-}
 
 @media  (max-width: 920px) {
   .intro__text {

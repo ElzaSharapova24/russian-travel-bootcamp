@@ -2,7 +2,14 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: bold;
 }
+
 
 @media  (max-width: 720px) {
   .intro__item {
