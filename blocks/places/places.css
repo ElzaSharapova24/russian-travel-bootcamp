@@ -4,7 +4,7 @@
   padding-right: 148px;
 }
 
-@media  (max-width: 1024px) {
+@media  (max-width: 1279px) {
   .places {
     padding-left: 48px;
     padding-right: 48px;
@@ -13,7 +13,7 @@
 
 @media  (max-width: 920px) {
   .places {
-    padding-top: 85px;
+    padding-top: 88px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -21,7 +21,7 @@
 
 @media  (max-width: 720px) {
   .places {
-    padding-top: 61px;
+    padding-top: 64px;
     padding-left: 0;
     padding-right: 0;
   }

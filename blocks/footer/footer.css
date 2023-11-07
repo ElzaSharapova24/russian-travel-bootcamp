@@ -1,6 +1,7 @@
 .footer {
-  padding: 0 3.75%;
-  padding-top: 87px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 92px;
   padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
@@ -8,8 +9,15 @@
 
 @media  (max-width: 1024px) {
   .footer {
-    padding: 0 4.75%;
-    padding-top: 91px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+
+@media (max-width: 920px) {
+  .footer {
+    padding-top: 88px;
   }
 }
 
@@ -17,6 +25,6 @@
   .footer {
     justify-content: center;
     flex-direction: column;
-    padding-top: 62px;
+    padding-top: 64px;
   }
 }
