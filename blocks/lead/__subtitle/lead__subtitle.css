@@ -5,7 +5,7 @@
   font-size: 30px;
   line-height: 1.2;
   color: #fff;
-  font-weight: normal;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 64px;
 }
@@ -16,11 +16,6 @@
   }
 }
 
-@media  (max-width: 920px) {
-  .lead__subtitle {
-    margin-bottom: 54px;
-  }
-}
 
 @media  (max-width: 720px) {
   .lead__subtitle {

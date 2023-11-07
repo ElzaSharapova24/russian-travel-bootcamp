@@ -6,13 +6,6 @@
 
 @media  (max-width: 720px) {
   .place__main-text {
-    row-gap: 25px;
-  }
-}
-
-
-@media  (max-width: 720px) {
-  .place__main-text {
     padding: 0 16px;
     row-gap: 25px;
   }
