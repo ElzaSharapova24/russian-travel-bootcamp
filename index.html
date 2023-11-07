@@ -31,7 +31,7 @@
 					Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
 				</p>
 			</div>
-			<figure>
+			<figure class="lead__inner">
 				<picture>
 					<source media="(max-width:320px)" srcset="images/kalegin-michail-17.jpg" />
 					<source media="(max-width:768px)" srcset="images/kalegin-michail-17(1).jpg" />
@@ -75,18 +75,44 @@
 			</ul>
 		</section>
 		<section class="photo-grid">
-			<img class="photo-grid__item" src="images/__item-11.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-10.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-9.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-8.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-7.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-6.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-5.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-4.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-3.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-2.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item-1.png" alt="Изображение природы" />
-			<img class="photo-grid__item" src="images/__item.png" alt="Изображение природы" />
+			<ul class="proto-grid__list">
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-11.png" alt="Изображение из окна поезда" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-10.png" alt="Снежная вершина" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-9.png" alt="Порховский район" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-8.png" alt="Изображение туманного леса" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-7.png" alt="Зимний Байкал" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-6.png" alt="Изображение пляжа" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-5.png" alt="Изображение Эльбруса" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-4.png" alt="Путешествие по России" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-3.png" alt="Мутновский вулкан" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-2.png" alt="Вулкан - Спящая Красавица на Камчатке" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item-1.png" alt="Зимний Байкал" />
+				</li>
+				<li class="photo-grid__item">
+					<img class="photo-grid__image" src="images/__item.png" alt="Изображение Эвереста" />
+				</li>
+			</ul>
 		</section>
 		<section class="places">
 			<article class="place">
@@ -94,7 +120,7 @@
 					Куршская коса
 				</h2>
 				<div class="place__website">
-					<h3 class="place__url-heading">url</h3>
+					<span class="place__url-heading">url</span>
 					<a class="place__link" href="http://park-kosa.ru" target="_blank">
 						park-kosa.ru
 					</a>
@@ -152,7 +178,8 @@
 						пасутся косули. И&nbsp;знаменитые манулы&nbsp;&mdash; тоже обитатели Алтайского края.
 					</p>
 				</div>
-				
+			</article>
+			<article class="place">
 				<h2 class="place__title">
 					Зимний Байкал
 				</h2>
@@ -201,7 +228,7 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<nav class="nav">
+		<nav class="footer__nav">
 			<ul class="footer__list">
 				<li class="footer__item">
 					<a class="footer__link" href="https://yandex.ru/maps" target="_blank">
