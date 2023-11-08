@@ -1,12 +1,14 @@
 .photo-grid {
-  padding: 0 3.75%;
+  padding-left: 48px;
+  padding-right: 48px;
   padding-top: 92px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
 }
 
-@media  (max-width: 1024px) {
+
+@media  (max-width: 920px) {
   .photo-grid {
     padding-left: 24px;
     padding-right: 24px;
@@ -15,6 +17,8 @@
 
 @media  (max-width: 720px) {
   .photo-grid {
+    padding-left: 16px;
+    padding-right: 16px;
     padding-top: 64px;
     gap: 12px;
   }
