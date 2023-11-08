@@ -6,7 +6,8 @@
 
 @media  (max-width: 1024px) {
   .intro {
-    padding: 0 48px;
+    padding-right: 48px;
+    padding-left: 48px;
     padding-top: 91px;
   }
 }
