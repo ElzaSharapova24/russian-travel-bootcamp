@@ -2,4 +2,5 @@
   max-width: 100%;
   object-fit: cover;
   margin-bottom: 8px;
+  display: block;
 }

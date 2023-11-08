@@ -5,9 +5,9 @@
   row-gap: 48px;
 }
 
-.place:not(:last-child) {
-  margin-bottom: 80px;
-}
+/*.place:not(:last-child) {*/
+/*  margin-bottom: 80px;*/
+/*}*/
 
 @media  (max-width: 1024px) {
   .place {
@@ -22,10 +22,6 @@
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
   }
-
-  .place:not(:last-child) {
-    margin-bottom: 70px;
-  }
 }
 
 @media  (max-width: 720px) {
@@ -35,9 +31,6 @@
     row-gap: 32px;
   }
 
-  .place:not(:last-child) {
-    margin-bottom: 50px;
-  }
 }
 
 
